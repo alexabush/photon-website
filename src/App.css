@@ -1,28 +1,82 @@
+* {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p,
+ul,
+h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+p,
+h2,
+h1,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.text {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.div--flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.App-intro {
-  font-size: large;
+.Header {
+  background: rgb(38, 38, 72);
+  padding: 80px;
+  height: 400px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.CTA {
+  background: rgb(43, 45, 75);
+}
+
+.Copy {
+  padding: 40px;
+  background-color: darkblue;
+}
+
+.div__img-container {
+  border: 2px solid blue;
+}
+
+.copy__img {
+  max-height: 100px;
+  max-width: 100px;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.Contact,
+.Footer {
+  background: rgb(38, 39, 68);
+}
+
+.Footer {
 }
