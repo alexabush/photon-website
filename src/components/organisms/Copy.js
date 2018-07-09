@@ -16,22 +16,23 @@ class Copy extends Component {
             <img className="copy__img" src={hikingModel} alt="" />
             <img className="copy__img" src={hikingModel} alt="" />
           </div>
-          <div>
-            <h2>
+          <div className="Copy__text-container">
+            <h2 className="Copy__h2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
               inventore odio.
             </h2>
-            <p>
+            <p className="padding">
               Quisquam aperiam at minus! Blanditiis praesentium cumque velit
               eveniet officia amet architecto sit, enim nemo asperiores.
               Accusamus, quos libero.
             </p>
-            <p>
-              Quisquam aperiam at minus! Blanditiis praesentium cumque velit
-              eveniet officia amet architecto sit, enim nemo asperiores.
-              Accusamus, quos libero.
+            <p className="padding">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+              eos alias voluptas ratione ab sequi voluptatum id porro, ex,
+              deleniti nulla quisquam culpa quidem excepturi facilis fugit
+              tempora. Sunt, accusantium?
             </p>
-            <p>
+            <p className="padding">
               Quisquam aperiam at minus! Blanditiis praesentium cumque velit
               eveniet officia amet architecto sit, enim nemo asperiores.
               Accusamus, quos libero.
