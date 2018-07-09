@@ -242,6 +242,45 @@ p {
 
 .icon {
   font-size: 1.5rem;
+  color: white;
+}
+
+.fa-code {
+  color: greenyellow;
+}
+
+.fa-bolt {
+  color: lightgreen;
+}
+
+.fa-camera-retro {
+  color: aqua;
+}
+
+.fa-cog {
+  color: lightskyblue;
+}
+
+.fa-desktop {
+  color: darkcyan;
+}
+
+.fa-calendar-alt {
+  color: plum;
+}
+
+.icon__container {
+  height: 5vw;
+  width: 5vw;
+  border: 1px solid red;
+}
+
+.div--diamond {
+  border: 1px solid white;
+  height: 5vw;
+  width: 5vw;
+  position: absolute;
+  transform: rotate(45deg);
 }
 
 i {

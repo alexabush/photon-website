@@ -9,12 +9,15 @@ class Copy extends Component {
       <div className="Copy">
         <div className="Copy__background-image">
           <div className="Copy__img-container">
-            <img className="copy__img" src={hikingModel} alt="" />
-            <img className="copy__img" src={hikingModel} alt="" />
-            <img className="copy__img" src={hikingModel} alt="" />
-            <img className="copy__img" src={hikingModel} alt="" />
-            <img className="copy__img" src={hikingModel} alt="" />
-            <img className="copy__img" src={hikingModel} alt="" />
+            <div className="icon__container">
+              <div className="div--diamond" />
+              <i class="icon fas fa-code" />
+            </div>
+            <i class="icon fas fa-bolt" />
+            <i class="icon fas fa-camera-retro" />
+            <i class="icon fas fa-cog" />
+            <i class="icon fas fa-desktop" />
+            <i class="icon fas fa-calendar-alt" />
           </div>
           <div className="Copy__text-container">
             <h2 className="Copy__h2">
