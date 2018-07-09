@@ -9,7 +9,8 @@ class CTA extends Component {
         <h2 className="CTA__h2 text-grey">
           Lorem ipsum dolor sit amet consectetur
         </h2>
-        <p className="text-grey">
+        <div className="short-border" />
+        <p className="CTA__p text-grey">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
         <img className="CTA__img" src={photographer_model} alt="" />

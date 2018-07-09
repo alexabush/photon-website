@@ -65,8 +65,13 @@ p {
   align-items: center;
 }
 
+.short-border {
+  width: 120px;
+  margin: auto;
+  border: 0.5px solid rgb(85, 85, 112);
+}
+
 .Header {
-  /* background: rgb(38, 38, 72); */
   background: linear-gradient(
     to top right,
     rgb(135, 182, 107),
@@ -151,7 +156,18 @@ p {
 
 .CTA {
   padding: 50px;
-  padding-top: 120px;
+  padding-top: 100px;
+}
+
+.CTA__h2 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.CTA__p {
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .Contact,
