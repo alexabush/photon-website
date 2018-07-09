@@ -1,6 +1,7 @@
 * {
   font-size: 18px;
   letter-spacing: 1.4px;
+  box-sizing: border-box;
 }
 
 ul {
@@ -44,6 +45,8 @@ p {
   background-color: transparent;
   margin: 10px;
   outline: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 
 .Button--grey {
@@ -54,6 +57,11 @@ p {
   background-color: transparent;
   margin: 35px;
   outline: none;
+}
+
+.Button--white-background {
+  background-color: white;
+  color: black;
 }
 
 .padding {
@@ -79,6 +87,10 @@ p {
   width: 120px;
   margin: auto;
   border: 0.5px solid rgb(85, 85, 112);
+}
+
+.short-border--white {
+  border: 0.5px solid white;
 }
 
 .Header {
@@ -122,7 +134,8 @@ p {
   font-weight: 300;
 }
 
-.Copy__background-image {
+.Copy__background-image,
+.Contact {
   padding: 80px;
   background-image: url('./static/mountain_bike_model.JPG');
   background-repeat: repeat;
@@ -184,10 +197,45 @@ p {
   font-size: 1.3rem;
 }
 
-.Contact,
-.Footer {
-  background: rgb(38, 39, 68);
+.Contact__h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.Contact__p {
+  padding: 25px;
+}
+
+.Contact__btn {
+  width: 175px;
+  padding: 12px;
 }
 
 .Footer {
+  background: linear-gradient(
+    to top right,
+    rgb(73, 86, 183),
+    rgb(135, 182, 107)
+  );
+  padding: 65px;
+}
+
+.Footer__ul {
+  display: flex;
+  justify-content: center;
+}
+
+.Footer__li {
+  margin: 20px 8px;
+  padding-right: 10px;
+  font-size: 0.7rem;
+}
+
+.Footer__li--border {
+  border-right: 1px solid white;
+}
+
+.white {
+  color: white;
 }

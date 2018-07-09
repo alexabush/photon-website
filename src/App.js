@@ -4,6 +4,7 @@ import Header from './components/organisms/Header';
 import Copy from './components/organisms/Copy';
 import CTA from './components/organisms/CTA';
 import ImgH2P from './components/organisms/ImgH2P';
+import Contact from './components/organisms/Contact';
 import Footer from './components/organisms/Footer';
 
 class App extends Component {
@@ -14,7 +15,8 @@ class App extends Component {
         <ImgH2P />
         <Copy />
         <CTA />
-        {/* <Footer /> */}
+        <Contact />
+        <Footer />
       </div>
     );
   }
