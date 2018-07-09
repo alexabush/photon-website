@@ -5,7 +5,13 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        <div>Icons</div>
+        <ul>
+          <i class="icon fab fa-twitter white" />
+          <i class="icon fab fa-facebook-f white" />
+          <i class="icon fab fa-instagram white" />
+          <i class="icon fab fa-github white" />
+          <i class="icon fas fa-envelope white" />
+        </ul>
         <ul className="Footer__ul">
           <li className="Footer__li Footer__li--border white">Untitled</li>
           <li className="Footer__li Footer__li--border white">
