@@ -7,34 +7,36 @@ class Copy extends Component {
   render() {
     return (
       <div className="Copy">
-        <div className="div__img-container">
-          <img className="copy__img" src={hikingModel} alt="" />
-          <img className="copy__img" src={hikingModel} alt="" />
-          <img className="copy__img" src={hikingModel} alt="" />
-          <img className="copy__img" src={hikingModel} alt="" />
-          <img className="copy__img" src={hikingModel} alt="" />
-          <img className="copy__img" src={hikingModel} alt="" />
-        </div>
-        <div>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
-            inventore odio.
-          </h2>
-          <p>
-            Quisquam aperiam at minus! Blanditiis praesentium cumque velit
-            eveniet officia amet architecto sit, enim nemo asperiores.
-            Accusamus, quos libero.
-          </p>
-          <p>
-            Quisquam aperiam at minus! Blanditiis praesentium cumque velit
-            eveniet officia amet architecto sit, enim nemo asperiores.
-            Accusamus, quos libero.
-          </p>
-          <p>
-            Quisquam aperiam at minus! Blanditiis praesentium cumque velit
-            eveniet officia amet architecto sit, enim nemo asperiores.
-            Accusamus, quos libero.
-          </p>
+        <div className="Copy__background-image">
+          <div className="Copy__img-container">
+            <img className="copy__img" src={hikingModel} alt="" />
+            <img className="copy__img" src={hikingModel} alt="" />
+            <img className="copy__img" src={hikingModel} alt="" />
+            <img className="copy__img" src={hikingModel} alt="" />
+            <img className="copy__img" src={hikingModel} alt="" />
+            <img className="copy__img" src={hikingModel} alt="" />
+          </div>
+          <div>
+            <h2>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+              inventore odio.
+            </h2>
+            <p>
+              Quisquam aperiam at minus! Blanditiis praesentium cumque velit
+              eveniet officia amet architecto sit, enim nemo asperiores.
+              Accusamus, quos libero.
+            </p>
+            <p>
+              Quisquam aperiam at minus! Blanditiis praesentium cumque velit
+              eveniet officia amet architecto sit, enim nemo asperiores.
+              Accusamus, quos libero.
+            </p>
+            <p>
+              Quisquam aperiam at minus! Blanditiis praesentium cumque velit
+              eveniet officia amet architecto sit, enim nemo asperiores.
+              Accusamus, quos libero.
+            </p>
+          </div>
         </div>
       </div>
     );

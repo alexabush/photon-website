@@ -104,17 +104,27 @@ p {
 }
 
 .Copy {
-  padding: 40px;
-  background-color: darkblue;
 }
 
-.div__img-container {
+.Copy__background-image {
+  padding: 40px;
+
+  background-image: url('./static/mountain_bike_model.JPG');
+  background-repeat: repeat;
+  opacity: 0.7;
+}
+
+.Copy__img-container {
   border: 2px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .copy__img {
-  max-height: 100px;
-  max-width: 100px;
+  align-self: center;
+  max-height: 150px;
+  max-width: 150px;
   border: 2px solid blue;
   padding: 10px;
 }

@@ -11,7 +11,7 @@ class Header extends Component {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
           blanditiis molestiae.
         </p>
-        <Button className="padding" title="Discover" />
+        <Button title="Discover" />
       </div>
     );
   }
