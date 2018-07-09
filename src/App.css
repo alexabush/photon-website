@@ -42,8 +42,18 @@ p {
   border-radius: 5px;
   padding: 10px 30px;
   background-color: transparent;
-  /* letter-spacing: 1.4px; */
   margin: 10px;
+  outline: none;
+}
+
+.Button--grey {
+  color: rgb(85, 85, 112);
+  border: 0.7px solid rgb(85, 85, 112);
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: transparent;
+  margin: 35px;
+  outline: none;
 }
 
 .padding {
@@ -92,8 +102,8 @@ p {
 .ImgH2P__h2 {
   font-size: 1.6rem;
   font-weight: 100;
-  padding-bottom: 30px;
-  border-bottom: 1px solid rgb(85, 85, 112);
+  /* padding-bottom: 30px; */
+  /* border-bottom: 1px solid rgb(85, 85, 112); */
 }
 
 .ImgH2P__p {
@@ -168,6 +178,10 @@ p {
 .CTA__p {
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.ImgH2PBtn__h2 {
+  font-size: 1.3rem;
 }
 
 .Contact,
