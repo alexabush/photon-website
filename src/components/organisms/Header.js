@@ -6,12 +6,12 @@ class Header extends Component {
   render() {
     return (
       <div className="Header div--flex-column">
-        <h1>Hi, my name is Photon</h1>
-        <p>
-          A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER THE
-          CREATIVE COMMONS.
+        <h1 className="padding">Hi, my name is Photon</h1>
+        <p className="padding">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+          blanditiis molestiae.
         </p>
-        <Button title="Discover" />
+        <Button className="padding" title="Discover" />
       </div>
     );
   }
