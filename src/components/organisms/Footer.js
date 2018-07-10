@@ -6,11 +6,11 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <ul>
-          <i class="icon fab fa-twitter white" />
-          <i class="icon fab fa-facebook-f white" />
-          <i class="icon fab fa-instagram white" />
-          <i class="icon fab fa-github white" />
-          <i class="icon fas fa-envelope white" />
+          <i class="icon--small fab fa-twitter white" />
+          <i class="icon--small fab fa-facebook-f white" />
+          <i class="icon--small fab fa-instagram white" />
+          <i class="icon--small fab fa-github white" />
+          <i class="icon--small fas fa-envelope white" />
         </ul>
         <ul className="Footer__ul">
           <li className="Footer__li Footer__li--border white">Untitled</li>

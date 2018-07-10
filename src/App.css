@@ -212,30 +212,6 @@ p {
   padding: 12px;
 }
 
-.Footer {
-  background: linear-gradient(
-    to top right,
-    rgb(73, 86, 183),
-    rgb(135, 182, 107)
-  );
-  padding: 65px;
-}
-
-.Footer__ul {
-  display: flex;
-  justify-content: center;
-}
-
-.Footer__li {
-  margin: 20px 8px;
-  padding-right: 10px;
-  font-size: 0.7rem;
-}
-
-.Footer__li--border {
-  border-right: 1px solid white;
-}
-
 .white {
   color: white;
 }
@@ -243,6 +219,10 @@ p {
 .icon {
   font-size: 6vw;
   color: white;
+}
+
+.icon--small {
+  font-size: 1.4rem;
 }
 
 .fa-code {
@@ -272,7 +252,7 @@ p {
 .icon__container {
   height: 13vw;
   width: 13vw;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -293,4 +273,28 @@ i {
 .icon--cloud {
   font-size: 3rem;
   color: white;
+}
+
+.Footer {
+  background: linear-gradient(
+    to top right,
+    rgb(73, 86, 183),
+    rgb(135, 182, 107)
+  );
+  padding: 65px;
+}
+
+.Footer__ul {
+  display: flex;
+  justify-content: center;
+}
+
+.Footer__li {
+  margin: 20px 8px;
+  padding-right: 10px;
+  font-size: 0.7rem;
+}
+
+.Footer__li--border {
+  border-right: 1px solid white;
 }

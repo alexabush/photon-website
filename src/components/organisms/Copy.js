@@ -8,7 +8,6 @@ class Copy extends Component {
     return (
       <div className="Copy">
         <div className="Copy__background-image">
-
           <div className="Copy__img-container">
             <div className="icon__container">
               <div className="div--diamond" />
