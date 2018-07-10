@@ -12,13 +12,14 @@ class CTA extends Component {
         <h2 className="CTA__h2 text-grey">
           Lorem ipsum dolor sit amet consectetur
         </h2>
-        <div className="short-border" />
         <p className="CTA__p text-grey">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
-        <ImgH2PBtn image={photographer_model} />
-        <ImgH2PBtn image={hikingModel} />
-        <ImgH2PBtn image={computer_model} />
+        <div className="CTA__container">
+          <ImgH2PBtn image={photographer_model} />
+          <ImgH2PBtn image={hikingModel} />
+          <ImgH2PBtn image={computer_model} />
+        </div>
       </div>
     );
   }

@@ -380,4 +380,38 @@ i {
     width: 60%;
     padding-left: 50px;
   }
+
+  .CTA {
+    /* display: flex; */
+    /* padding: 50px;
+    padding-top: 100px; */
+  }
+
+  .CTA__h2 {
+    /* font-size: 1.4rem;
+    font-weight: 300;
+    padding-bottom: 20px; */
+  }
+
+  .CTA__p {
+    /* padding: 20px;
+    margin-bottom: 20px; */
+  }
+
+  .CTA__container {
+    display: flex;
+  }
+
+  .ImgH2P__img {
+    width: 100%;
+  }
+
+  .ImgH2P-Text-Container {
+    text-align: center;
+  }
+
+  .ImgH2P__p {
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
 }
