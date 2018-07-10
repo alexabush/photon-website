@@ -100,12 +100,22 @@ p {
     rgb(135, 182, 107),
     rgb(73, 86, 183)
   );
-  padding: 70px 60px 70px 60px;
+  padding: 70px 0;
+}
+
+.Header__container {
+  max-width: 500px;
 }
 
 .Header__h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 200;
+}
+
+.Header__p {
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.75;
 }
 
 .ImgH2P {
@@ -120,7 +130,6 @@ p {
   font-size: 4.5vw;
   font-weight: 100;
   margin-bottom: 30px;
-  /* border-bottom: 1px solid rgb(85, 85, 112); */
 }
 
 .ImgH2P__p {
@@ -299,4 +308,40 @@ i {
 
 .Footer__li--border {
   border-right: 1px solid white;
+}
+
+@media screen and (min-width: 981px) {
+  .ImgH2P {
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .ImgH2P-Text-Container {
+    padding-top: 20px;
+    padding-right: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+    text-align: left;
+  }
+
+  .ImgH2P__h2 {
+    font-size: 4.5vw;
+    font-weight: 100;
+    margin-bottom: 30px;
+  }
+
+  .ImgH2P__p {
+    padding-top: 30px;
+  }
+  .ImgH2P__img {
+    padding: 20px;
+    width: 50%;
+    align-self: center;
+  }
+
+  .short-border {
+    margin: 0;
+  }
 }
