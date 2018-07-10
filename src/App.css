@@ -11,6 +11,7 @@ ul {
 img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 5px;
 }
 
 p,
@@ -41,7 +42,7 @@ p {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
-  padding: 10px 30px;
+  padding: 13px 30px;
   background-color: transparent;
   margin: 10px;
   outline: none;
@@ -99,12 +100,16 @@ p {
     rgb(135, 182, 107),
     rgb(73, 86, 183)
   );
-  padding: 80px;
-  height: 400px;
+  padding: 70px 60px 70px 60px;
+}
+
+.Header__h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
 .ImgH2P {
-  padding: 80px 40px;
+  padding: 60px 30px;
 }
 
 .ImgH2P-Text-Container {
@@ -112,9 +117,9 @@ p {
 }
 
 .ImgH2P__h2 {
-  font-size: 1.6rem;
+  font-size: 4.5vw;
   font-weight: 100;
-  /* padding-bottom: 30px; */
+  margin-bottom: 30px;
   /* border-bottom: 1px solid rgb(85, 85, 112); */
 }
 
@@ -130,7 +135,9 @@ p {
 }
 
 .Copy__h2 {
-  font-size: 1.4rem;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  font-size: 4.5vw;
   font-weight: 300;
 }
 
@@ -170,11 +177,6 @@ p {
 
 .Copy__text-container {
   padding: 30px;
-}
-
-.Copy__h2 {
-  padding-bottom: 20px;
-  border-bottom: 1px solid white;
 }
 
 .CTA {

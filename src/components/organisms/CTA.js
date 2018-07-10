@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import photographer_model from '../../static/photographer_model.jpg';
+import hikingModel from '../../static/hikingModel.jpeg';
+import computer_model from '../../static/computer_model.jpg';
 import ImgH2PBtn from './ImgH2PBtn';
 
 class CTA extends Component {
@@ -14,9 +16,9 @@ class CTA extends Component {
         <p className="CTA__p text-grey">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
-        <ImgH2PBtn />
-        <ImgH2PBtn />
-        <ImgH2PBtn />
+        <ImgH2PBtn image={photographer_model} />
+        <ImgH2PBtn image={hikingModel} />
+        <ImgH2PBtn image={computer_model} />
       </div>
     );
   }

@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div className="Header div--flex-column">
         <i className="icon--cloud fas fa-cloud" />
-        <h1 className="padding">
+        <h1 className="padding Header__h1">
           Hi, I'm Photon, another fine little freebie from HTML5 Up.
         </h1>
         <p className="padding">

@@ -11,6 +11,7 @@ class ImgH2P extends Component {
           <h2 className="ImgH2P__h2 text-grey">
             Lorem ipsum dolor sit amet consectetur
           </h2>
+          <div className="short-border" />
           <p className="ImgH2P__p text-grey">
             Accusamus, voluptatem iure! Aliquid praesentium consequatur, eaque
             culpa nobis quisquam eveniet in sapiente possimus, maxime doloremque
