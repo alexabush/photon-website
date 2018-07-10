@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import computer_model from '../../static/computer_model.jpg';
-import hikingModel from '../../static/hikingModel.jpeg';
 
 class Copy extends Component {
   state = {};
@@ -11,27 +9,27 @@ class Copy extends Component {
           <div className="Copy__img-container">
             <div className="icon__container">
               <div className="div--diamond" />
-              <i class="icon fas fa-code" />
+              <i className="icon fas fa-code" />
             </div>
             <div className="icon__container">
               <div className="div--diamond" />
-              <i class="icon fas fa-bolt" />
+              <i className="icon fas fa-bolt" />
             </div>
             <div className="icon__container">
               <div className="div--diamond" />
-              <i class="icon fas fa-camera-retro" />
+              <i className="icon fas fa-camera-retro" />
             </div>
             <div className="icon__container">
               <div className="div--diamond" />
-              <i class="icon fas fa-cog" />
+              <i className="icon fas fa-cog" />
             </div>
             <div className="icon__container">
               <div className="div--diamond" />
-              <i class="icon fas fa-desktop" />
+              <i className="icon fas fa-desktop" />
             </div>
             <div className="icon__container">
               <div className="div--diamond" />
-              <i class="icon fas fa-calendar-alt" />
+              <i className="icon fas fa-calendar-alt" />
             </div>
           </div>
           <div className="Copy__text-container">
