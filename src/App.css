@@ -133,6 +133,7 @@ p {
 }
 
 .ImgH2P__p {
+  font-size: 2.5vw;
   padding-top: 30px;
 }
 
@@ -312,7 +313,8 @@ i {
 
 @media screen and (min-width: 981px) {
   .ImgH2P {
-    padding: 60px 30px;
+    /* padding: 60px 30px; */
+    padding: 5.5vw 20vw;
     display: flex;
     flex-direction: row-reverse;
   }
@@ -327,14 +329,16 @@ i {
   }
 
   .ImgH2P__h2 {
-    font-size: 4.5vw;
+    font-size: 2vw;
     font-weight: 100;
     margin-bottom: 30px;
   }
 
   .ImgH2P__p {
+    font-size: 0.9vw;
     padding-top: 30px;
   }
+
   .ImgH2P__img {
     padding: 20px;
     width: 50%;
