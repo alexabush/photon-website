@@ -37,14 +37,21 @@ class Copy extends Component {
           </h2>
           <p className="Copy__p">
             Quisquam aperiam at minus! Blanditiis praesentium cumque velit
-            eveniet officia amet architecto sit, enim nemo asperiores.
-            Accusamus, quos libero.
+            eveniet officia amet architecto sit, enim nemo asperiores. Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Eius similique
+            repudiandae natus aliquam quo a, corporis placeat sed dignissimos
+            error veritatis ut rerum sapiente odio unde laudantium deserunt
+            cupiditate dolore?
           </p>
           <p className="Copy__p">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
-            eos alias voluptas ratione ab sequi voluptatum id porro, ex,
-            deleniti nulla quisquam culpa quidem excepturi facilis fugit
-            tempora. Sunt, accusantium?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+            obcaecati possimus omnis? Dolore deserunt fugit quo, ipsam
+            asperiores sapiente qui veniam veritatis sit blanditiis reiciendis
+            fugiat cumque, quisquam ex eveniet! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Officiis, veritatis vero cupiditate
+            voluptates voluptatibus molestias. Minus rerum eius minima impedit
+            itaque dolores, totam mollitia, veritatis similique quibusdam magnam
+            ipsam. Harum.
           </p>
           <p className="Copy__p">
             Quisquam aperiam at minus! Blanditiis praesentium cumque velit
