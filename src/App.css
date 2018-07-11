@@ -52,7 +52,7 @@ p {
 
 .Button--grey {
   color: rgb(85, 85, 112);
-  border: 0.7px solid rgb(85, 85, 112);
+  border: 1px solid rgb(208, 208, 208);
   border-radius: 5px;
   padding: 10px 30px;
   background-color: transparent;
@@ -94,6 +94,10 @@ p {
   border: 0.5px solid white;
 }
 
+.short-border--grey {
+  border: 0.5px solid rgb(214, 214, 214);
+}
+
 .Header {
   background: linear-gradient(
     to top right,
@@ -133,8 +137,8 @@ p {
 }
 
 .ImgH2P__p {
-  font-size: 2.5vw;
-  padding-top: 30px;
+  font-size: 2.3vw;
+  /* padding-top: 30px; */
 }
 
 .text-grey {
@@ -143,13 +147,12 @@ p {
 
 .Copy__h2 {
   padding-bottom: 20px;
-  border-bottom: 1px solid white;
   font-size: 4.5vw;
   font-weight: 300;
 }
 
 .Copy__p {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .Copy,
@@ -187,12 +190,12 @@ p {
 } */
 
 .Copy__text-container {
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .CTA {
   padding: 50px;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .CTA__h2 {
@@ -267,6 +270,7 @@ p {
   width: 13vw;
   /* border: 1px solid red; */
   position: relative;
+  margin: 15px 5px;
 }
 
 .div--diamond {
@@ -342,13 +346,8 @@ i {
     align-self: center;
   }
 
-  .short-border {
-    margin: 0;
-  }
-
   .Copy__h2 {
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
     font-size: 2.5vw;
     font-weight: 300;
   }
@@ -394,8 +393,7 @@ i {
   }
 
   .CTA__p {
-    /* padding: 20px;
-    margin-bottom: 20px; */
+    margin-bottom: 0px;
   }
 
   .CTA__container {
