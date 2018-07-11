@@ -408,8 +408,20 @@ i {
     display: flex;
   } */
 
+  .ImgH2PBtn__img-container {
+    /* object-fit: cover; */
+    border: 1px solid red;
+    /* object-position: 50% 50%; */
+    /* padding: 5px; */
+    /* width: 300px; */
+    /* height: 300px; */
+  }
+
   .ImgH2PBtn__img {
-    width: 100%;
+    /* object-fit: cover; */
+    /* object-position: 50% 50%; */
+
+    /* width: 100%; */
   }
   /* 
   .ImgH2P-Text-Container {

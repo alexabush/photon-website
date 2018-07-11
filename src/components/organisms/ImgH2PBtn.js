@@ -5,7 +5,9 @@ class ImgH2PBtn extends Component {
   render() {
     return (
       <div className="ImgH2PBtn">
-        <img className="ImgH2PBtn__img" src={this.props.image} alt="" />
+        <div className="ImgH2PBtn__img-container">
+          <img className="ImgH2PBtn__img" src={this.props.image} alt="" />
+        </div>
         <div className="ImgH2PBtn__Text-Container">
           <h2 className="ImgH2P__h2 ImgH2PBtn__h2 text-grey">
             Distinctio deleniti ducimus officia recusandae eveniet.
