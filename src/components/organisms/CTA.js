@@ -5,7 +5,6 @@ import computer_model from '../../static/computer_model.jpg';
 import ImgH2PBtn from './ImgH2PBtn';
 
 class CTA extends Component {
-  state = {};
   render() {
     return (
       <div className="CTA">

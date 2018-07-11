@@ -98,6 +98,10 @@ p {
   border: 0.5px solid rgb(214, 214, 214);
 }
 
+.short-border--left {
+  margin: 0;
+}
+
 .Header {
   background: linear-gradient(
     to top right,
@@ -126,7 +130,7 @@ p {
   padding: 60px 30px;
 }
 
-.ImgH2P-Text-Container {
+.ImgH2P__Text-Container {
   padding-top: 40px;
 }
 
@@ -138,7 +142,7 @@ p {
 
 .ImgH2P__p {
   font-size: 2.3vw;
-  /* padding-top: 30px; */
+  padding-top: 30px;
 }
 
 .text-grey {
@@ -153,6 +157,7 @@ p {
 
 .Copy__p {
   padding: 20px 0;
+  line-height: 1.4rem;
 }
 
 .Copy,
@@ -318,26 +323,26 @@ i {
 
 @media screen and (min-width: 981px) {
   .ImgH2P {
-    padding: 5.5vw 20vw;
+    /* padding: 5.5vw 20vw; */
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .ImgH2P-Text-Container {
+  .ImgH2P__Text-Container {
     padding-top: 20px;
     padding-right: 30px;
     text-align: left;
   }
 
   .ImgH2P__h2 {
-    font-size: 2vw;
+    /* font-size: 2vw; */
     font-weight: 100;
     margin-bottom: 30px;
   }
 
   .ImgH2P__p {
-    font-size: 0.9vw;
-    padding-top: 30px;
+    /* font-size: 0.9vw; */
+    /* padding-top: 30px; */
   }
 
   .ImgH2P__img {
@@ -400,13 +405,13 @@ i {
     display: flex;
   }
 
-  .ImgH2P__img {
+  .ImgH2PBtn__img {
     width: 100%;
   }
-
+  /* 
   .ImgH2P-Text-Container {
     text-align: center;
-  }
+  } */
 
   .ImgH2P__p {
     font-size: 0.8rem;

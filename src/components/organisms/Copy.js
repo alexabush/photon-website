@@ -31,8 +31,10 @@ class Copy extends Component {
           </div>
         </div>
         <div className="Copy__text-container">
-          <h2 className="Copy__h2">Nihil, inventore odio.</h2>
-          <div className="short-border short-border--white" />
+          <h2 className="Copy__h2">
+            Laudantium, eaque provident omnis tenetur excepturi ut ad
+          </h2>
+          <div className="short-border short-border--white short-border--left" />
           <p className="Copy__p">
             Quisquam aperiam at minus! Blanditiis praesentium cumque velit
             eveniet officia amet architecto sit, enim nemo asperiores. Lorem
