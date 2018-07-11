@@ -6,6 +6,7 @@ import CTA from './components/organisms/CTA';
 import ImgH2P from './components/organisms/ImgH2P';
 import Contact from './components/organisms/Contact';
 import Footer from './components/organisms/Footer';
+import Sample from './components/organisms/Sample';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <CTA />
         <Contact />
         <Footer />
+        <Sample />
       </div>
     );
   }

@@ -156,8 +156,10 @@ p {
 }
 
 .Copy__p {
-  padding: 20px 0;
-  line-height: 1.4rem;
+  /* padding: 20px 0; */
+  font-size: 2.8vw;
+  padding: 20px 0 0 0;
+  line-height: 2rem;
 }
 
 .Copy,
@@ -358,6 +360,7 @@ i {
   }
 
   .Copy__p {
+    font-size: 1.4vw;
     padding: 20px 0 0 0;
   }
 
@@ -401,9 +404,9 @@ i {
     margin-bottom: 0px;
   }
 
-  .CTA__container {
+  /* .CTA__container {
     display: flex;
-  }
+  } */
 
   .ImgH2PBtn__img {
     width: 100%;

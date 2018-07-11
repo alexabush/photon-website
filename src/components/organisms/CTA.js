@@ -4,6 +4,8 @@ import hikingModel from '../../static/hikingModel.jpeg';
 import computer_model from '../../static/computer_model.jpg';
 import ImgH2PBtn from './ImgH2PBtn';
 
+import { Container, Row, Col } from 'reactstrap';
+
 class CTA extends Component {
   render() {
     return (
@@ -15,11 +17,19 @@ class CTA extends Component {
         <p className="CTA__p text-grey">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
-        <div className="CTA__container">
-          <ImgH2PBtn image={photographer_model} />
-          <ImgH2PBtn image={hikingModel} />
-          <ImgH2PBtn image={computer_model} />
-        </div>
+        <Container>
+          <Row>
+            <Col>
+              <ImgH2PBtn image={photographer_model} />
+            </Col>
+            <Col>
+              <ImgH2PBtn image={hikingModel} />
+            </Col>
+            <Col>
+              <ImgH2PBtn image={computer_model} />
+            </Col>
+          </Row>
+        </Container>
       </div>
     );
   }
