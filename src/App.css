@@ -135,13 +135,13 @@ p {
 }
 
 .ImgH2P__h2 {
-  font-size: 4.5vw;
+  font-size: 1.4vw;
   font-weight: 100;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .ImgH2P__p {
-  font-size: 2.3vw;
+  font-size: 0.7rem;
   padding-top: 30px;
 }
 
@@ -409,24 +409,12 @@ i {
   } */
 
   .ImgH2PBtn__img-container {
-    /* object-fit: cover; */
-    border: 1px solid red;
-    /* object-position: 50% 50%; */
-    /* padding: 5px; */
-    /* width: 300px; */
-    /* height: 300px; */
+    /* height: 200px; */
   }
 
   .ImgH2PBtn__img {
     /* object-fit: cover; */
-    /* object-position: 50% 50%; */
-
-    /* width: 100%; */
   }
-  /* 
-  .ImgH2P-Text-Container {
-    text-align: center;
-  } */
 
   .ImgH2P__p {
     font-size: 0.8rem;

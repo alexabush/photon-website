@@ -10,7 +10,7 @@ class ImgH2PBtn extends Component {
         </div>
         <div className="ImgH2PBtn__Text-Container">
           <h2 className="ImgH2P__h2 ImgH2PBtn__h2 text-grey">
-            Distinctio deleniti ducimus officia recusandae eveniet.
+            Distinctio deleniti ducimust.
           </h2>
           <p className="ImgH2P__p text-grey">
             Accusamus, voluptatem iure! Aliquid praesentium consequatur.
