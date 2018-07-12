@@ -326,6 +326,7 @@ i {
 @media screen and (min-width: 981px) {
   .ImgH2P {
     /* padding: 5.5vw 20vw; */
+    border: 1px solid red;
     display: flex;
     flex-direction: row-reverse;
   }
