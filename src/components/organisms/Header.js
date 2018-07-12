@@ -8,7 +8,7 @@ class Header extends Component {
       <div className="Header div--flex-column">
         <div className="Header__container">
           <i className="icon--cloud fas fa-cloud" />
-          <h1 className="padding Header__h1">
+          <h1 className="padding Header__h1 white">
             Hi, I'm Photon, another fine little freebie from HTML5 Up.
           </h1>
           <p className="Header__p padding">

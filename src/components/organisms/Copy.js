@@ -31,7 +31,7 @@ class Copy extends Component {
           </div>
         </div>
         <div className="Copy__text-container">
-          <h2 className="Copy__h2">
+          <h2 className="Copy__h2 white">
             Laudantium, eaque provident omnis tenetur excepturi ut ad
           </h2>
           <div className="short-border short-border--white short-border--left" />
